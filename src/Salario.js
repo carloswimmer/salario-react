@@ -148,7 +148,7 @@ export class Salario {
    * Getters com um mínimo de formatação
    */
   get salarioBruto() {
-    return this._salarioBruto.toFixed(2);
+    return this._salarioBruto;
   }
 
   get baseINSS() {
